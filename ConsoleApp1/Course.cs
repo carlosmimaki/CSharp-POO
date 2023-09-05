@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Globalization;
 
 namespace ConsoleApp1
@@ -7,6 +7,9 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
+
+            //Exemplo 1
+
             //string produto1 = "Computador";
             //string produto2 = "Mesa de escritório";
             //byte idade = 30;
@@ -24,6 +27,99 @@ namespace ConsoleApp1
             //Console.WriteLine("Medida com oito casas decimais: {0:F8}", medida);
             //Console.WriteLine("Arredondado (três casas decimais): {0:F3}", medida);
             //Console.WriteLine("Separador decimal invariant culture: " + medida.ToString("F3", CultureInfo.InvariantCulture));
+
+            //Exemplo 2
+
+            //int n1 = 3 + 4 * 2;
+            //int n2 = (3 + 4) * 2;
+            //int n3 = 17 % 3;
+            //double n4 = 10.0 / 8.0;
+            //double a = 1.0, b = -3.0, c = -4.0;
+            //double delta = Math.Pow(b, 2.0) - 4.0 * a * c;
+            //double x1 = (-b + Math.Sqrt(delta)) / (2.0 * a);
+            //double x2 = (-b - Math.Sqrt(delta)) / (2.0 * a);
+            //Console.WriteLine(n1);
+            //Console.WriteLine(n2);
+            //Console.WriteLine(n3);
+            //Console.WriteLine(n4);
+            //Console.WriteLine(delta);
+            //Console.WriteLine(x1);
+            //Console.WriteLine(x2);
+
+            //Exemplo 3
+
+            //int a = 10;
+            //Console.WriteLine(a);
+            //a += 2;
+            //Console.WriteLine(a);
+            //a *= 3;
+            //Console.WriteLine(a);
+            //string s = "ABC";
+            //Console.WriteLine(s);
+            //s += "DEF";
+            //Console.WriteLine(s);
+
+            //Exemplo 4
+
+            //string frase = Console.ReadLine();
+            //string x = Console.ReadLine();
+            //string y = Console.ReadLine();
+            //string z = Console.ReadLine();
+            //string[] v = Console.ReadLine().Split(' ');
+            //string a = v[0];
+            //string b = v[1];
+            //string c = v[2];
+            //Console.WriteLine("Você digitou: ");
+            //Console.WriteLine(frase);
+            //Console.WriteLine(x);
+            //Console.WriteLine(y);
+            //Console.WriteLine(z);
+            //Console.WriteLine(a);
+            //Console.WriteLine(b);
+            //Console.WriteLine(c);
+
+            //Exemplo 5
+
+
+            //int n1 = int.Parse(Console.ReadLine());
+            //char ch = char.Parse(Console.ReadLine());
+            //double n2 = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            //string[] vet = Console.ReadLine().Split(' ');
+            //string nome = vet[0];
+            //char sexo = char.Parse(vet[1]);
+            //int idade = int.Parse(vet[2]);
+            //double altura = double.Parse(vet[3], CultureInfo.InvariantCulture);
+            //Console.WriteLine("Você digitou:");
+            //Console.WriteLine(n1);
+            //Console.WriteLine(ch);
+            //Console.WriteLine(n2.ToString("F2", CultureInfo.InvariantCulture));
+            //Console.WriteLine(nome);
+            //Console.WriteLine(sexo);
+            //Console.WriteLine(idade);
+            //Console.WriteLine(altura.ToString("F2", CultureInfo.InvariantCulture));
+
+            //Exemplo 6
+
+
+            //Console.WriteLine("Entre com seu nome completo:");
+            //string fullName = Console.ReadLine();
+            //Console.WriteLine("Quantos quartos tem na sua casa?");
+            //int bedrooms = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Enter product price:");
+            //double price = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            //Console.WriteLine("Entre seu último nome, idade e altura (mesma linha):");
+            //string[] vect = Console.ReadLine().Split(' ');
+            //string lastName = vect[0];
+            //int age = int.Parse(vect[1]);
+            //double height = double.Parse(vect[2], CultureInfo.InvariantCulture);
+            //Console.WriteLine(fullName);
+            //Console.WriteLine(bedrooms);
+            //Console.WriteLine(price.ToString("F2", CultureInfo.InvariantCulture));
+            //Console.WriteLine(lastName);
+            //Console.WriteLine(age);
+            //Console.WriteLine(height.ToString("F2", CultureInfo.InvariantCulture));
+
+
 
             //https://github.com/acenelio/nivelamento-csharp/blob/master/uri1003/uri1003/Program.cs
 
