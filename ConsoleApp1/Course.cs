@@ -595,6 +595,137 @@ namespace ConsoleApp1
             //Console.WriteLine("Gasolina: " + gasolina);
             //Console.WriteLine("Diesel: " + diesel);
 
+
+            //Estrutura de Repetição FOR
+
+            //Console.Write("Quantos números inteiros você vai digitar? ");
+            //int N = int.Parse(Console.ReadLine());
+            //int soma = 0;
+            //for (int i = 1; i <= N; i++)
+            //{
+            //    Console.Write("Valor #{0}: ", i);
+            //    int valor = int.Parse(Console.ReadLine());
+            //    soma += valor;
+            //}
+            //Console.WriteLine("Soma = " + soma);
+
+            //Exercício 1 - https://github.com/acenelio/nivelamento-csharp/blob/master/uri1067/uri1067/Program.cs
+
+
+            //int x = int.Parse(Console.ReadLine());
+
+            //for (int i = 1; i <= x; i++)
+            //{
+            //    if (i % 2 != 0)
+            //    {
+            //        Console.WriteLine(i);
+            //    }
+            //}
+
+            //Exercício 2 - https://github.com/acenelio/nivelamento-csharp/blob/master/uri1072/uri1072/Program.cs
+
+            //int n = int.Parse(Console.ReadLine());
+
+            //int cont_in = 0;
+            //int cont_out = 0;
+
+            //for (int i = 0; i < n; i++)
+            //{
+            //    int x = int.Parse(Console.ReadLine());
+            //    if (x >= 10 && x <= 20)
+            //    {
+            //        cont_in = cont_in + 1;
+            //    }
+            //    else
+            //    {
+            //        cont_out = cont_out + 1;
+            //    }
+            //}
+
+            //Console.WriteLine(cont_in + " in");
+            //Console.WriteLine(cont_out + " out");
+
+            //Exercício 3 - https://github.com/acenelio/nivelamento-csharp/blob/master/uri1079/uri1079/Program.cs
+
+            //int n = int.Parse(Console.ReadLine());
+
+            //for (int i = 0; i < n; i++)
+            //{
+
+            //    string[] line = Console.ReadLine().Split(' ');
+            //    double a = double.Parse(line[0], CultureInfo.InvariantCulture);
+            //    double b = double.Parse(line[1], CultureInfo.InvariantCulture);
+            //    double c = double.Parse(line[2], CultureInfo.InvariantCulture);
+
+            //    double media = (a * 2.0 + b * 3.0 + c * 5.0) / 10.0;
+
+            //    Console.WriteLine(media.ToString("F1", CultureInfo.InvariantCulture));
+            //}
+
+
+            //Exercício 4 - https://github.com/acenelio/nivelamento-csharp/blob/master/uri1116/uri1116/Program.cs
+
+            //int n = int.Parse(Console.ReadLine());
+
+            //for (int i = 0; i < n; i++)
+            //{
+
+            //    string[] line = Console.ReadLine().Split(' ');
+            //    int x = int.Parse(line[0]);
+            //    int y = int.Parse(line[1]);
+
+            //    if (y == 0)
+            //    {
+            //        Console.WriteLine("divisao impossivel");
+            //    }
+            //    else
+            //    {
+            //        double div = (double)x / y;
+            //        Console.WriteLine(div.ToString("F1", CultureInfo.InvariantCulture);
+            //    }
+            //}
+
+
+            //Exercício 5 - https://github.com/acenelio/nivelamento-csharp/blob/master/uri1153/uri1153/Program.cs
+
+            //int n = int.Parse(Console.ReadLine());
+
+            //int fat = 1;
+            //for (int i = 1; i <= n; i++)
+            //{
+            //    fat = fat * i;
+            //}
+
+            //Console.WriteLine(fat);
+
+            //Exercício 6 - https://github.com/acenelio/nivelamento-csharp/blob/master/uri1157/uri1157/Program.cs
+
+            //int n = int.Parse(Console.ReadLine());
+
+            //for (int i = 1; i <= n; i++)
+            //{
+            //    if (n % i == 0)
+            //    {
+            //        Console.WriteLine(i);
+            //    }
+            //}
+
+            //Exercício 7 - https://github.com/acenelio/nivelamento-csharp/blob/master/uri1143/uri1143/Program.cs
+
+            //int n = int.Parse(Console.ReadLine());
+
+            //for (int i = 1; i <= n; i++)
+            //{
+
+            //    int primeiro = i;
+            //    int segundo = i * i;
+            //    int terceiro = i * i * i;
+            //    Console.WriteLine($"{primeiro} {segundo} {terceiro}");
+            //}
+
+
+
+
         }
     }
 }
